@@ -4,11 +4,11 @@ clear all
 x = input('Enter 1 for entering the matrix manually, or 2 for generating random matrix :')
 
 if x == 1
-    A = input('Enter the square matrix (make sure that it is non-singular:')
+    A = input('Enter the square matrix (make sure that it is non-singular):')
     M = zeros(length(A))
     C = zeros(length(A))
 elseif x == 2
-    m = input('Enter dimesion of the random square matrix to calculate inverse: ');
+    m = input('Enter dimension of the random square matrix to calculate inverse: ');
     A = round(5*randn(m));
     M = zeros(m);
     C = zeros(m);
@@ -23,7 +23,7 @@ n = length(A);
 
 for i = 1:n
     for j = 1: n
-        %slicing the lements of minor matrix
+        %slicing the elements of minor matrix
         rows = true(1,n);
         cols = true(1,n);
         rows(i) = false;

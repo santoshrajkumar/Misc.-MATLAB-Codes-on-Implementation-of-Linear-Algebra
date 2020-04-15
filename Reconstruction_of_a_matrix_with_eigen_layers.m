@@ -1,4 +1,4 @@
-m = input('Enter Dimesnion of the square Matric A : ');
+m = input('Enter dimension of the square Matric A : ');
 
 %generating random mxm matrix
 A = round(5*randn(m));

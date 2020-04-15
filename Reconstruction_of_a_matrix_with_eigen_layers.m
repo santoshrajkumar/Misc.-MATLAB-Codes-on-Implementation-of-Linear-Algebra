@@ -26,7 +26,7 @@ A
 
 Ac
 
-fprintf('The difference of A & Al is: ')
+fprintf('The difference of A & Ac is: ')
 
 A-Ac
 
